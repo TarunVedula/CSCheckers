@@ -1,9 +1,10 @@
 public class Move{
   public String[][] GenerateMove(Gameboard board, String playerTurn){
+    
     for (String[] column : board){
       for (String square : column{
         if (playerTurn.equals("black") && (square.equals("b") || square.equals("bk")) || playerTurn.equals("white") && (square.equals("w") || square.equals("wk"))){ // if the piece is your team
-          
+          if()
         }
       }
     }
