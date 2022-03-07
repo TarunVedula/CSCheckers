@@ -19,7 +19,7 @@ public class Player{
   public Player(){
     pieces = 8;
     pNum = 1;
-    pColor = :
+    //pColor;
   }
   
   public Player(int pN, String n){ // constructor start
