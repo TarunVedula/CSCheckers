@@ -7,6 +7,7 @@ public class Gameboard{
   private String[][] board;
   public Gameboard(){
     board = new String[8][8]; 
+    
   }  
   public void setBoard(){
     //First row of black pieces
@@ -45,6 +46,7 @@ public class Gameboard{
    for (String [] rows : board){
      for(String val : rows){
        System.out.print(val);
+        System.out.print(" ");
      }
      System.out.println();
    }
