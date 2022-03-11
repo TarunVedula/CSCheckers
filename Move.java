@@ -18,7 +18,25 @@ public class Move{
       }
     }
   }
+  public void IntoKing(String[][] board){
+    for (int row = 0; row < board.length; row++){
+      for (int colm = 0; colm < board[row].length; colm++){
+        if (row == 0){
+          if (board[row][colm].equals("w"))
+            board[row][colm] = "kw";// Making king
+        }
+        else if (row == 7){
+          if (board[row][colm].equals("b"))
+            board[row][colm] = "kb"; // making king
+        }
+      }
+    }
+  }
+  public boolean IfKing(String[][] board){
+  
+  }
 
+  
 }
 /*
 Move Class

@@ -19,7 +19,7 @@ public class Player{
   public Player(){
     pieces = 8;
     pNum = 1;
-    //pColor;
+    pColor = "Black";
   }
   
   public Player(int pN, String n){ // constructor start
@@ -28,7 +28,7 @@ public class Player{
     if (pNum == 1)
       pColor = "Black";
     else
-      pColor = "Red";
+      pColor = "White";
     name = n;
   } // default constructor end
   
